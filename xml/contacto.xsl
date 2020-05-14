@@ -31,17 +31,17 @@
 
 <div>
 	<article>
-	  <xsl:for-each select="contactos/contacto">
-		<h2><xsl:value-of select="h2"></xsl:value-of></h2>
-		<p><xsl:value-of select="p"></xsl:value-of></p>
-		<ul>
-		<xsl:for-each select="ul/li">
-			<li><b><xsl:value-of select="h3"></xsl:value-of></b><br></br>
-			<xsl:value-of select="p"></xsl:value-of><br></br><br></br>
-			</li>
-			</xsl:for-each>
-		</ul>
-		</xsl:for-each>
+	<xsl:for-each select="contactos/contacto">
+    <h2><xsl:value-of select="h2"></xsl:value-of></h2>
+	<p><xsl:value-of select="p"></xsl:value-of></p>
+	<ul>
+	<xsl:for-each select="ul/li">
+	<li><b><xsl:value-of select="h3"></xsl:value-of></b><br></br>
+	<xsl:value-of select="p"></xsl:value-of><br></br><br></br>
+	</li>
+	</xsl:for-each>
+    </ul>
+	</xsl:for-each>
 	</article>
 </div>
 
