@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="contacto.xsl"?>
+
+<contactos>
+  <contacto>
+    <h2>Contactos disponibles:</h2>
+    <p>Puedes contactarnos para publicar tu web en recomendaciones, o tu contenido semanalmente.</p>
+    <br> </br>
+
+    <ul>
+      <li>
+      <h3>Teléfono:</h3>
+      <p>911827345</p>
+      </li>
+      <li>
+      <h3>Email:</h3>
+      <p>andreibineata00@gmail.com</p>
+      </li>
+	    <li>
+		  <h3>Sede:</h3>
+		  <p>Avenida de Madrid, 223.</p>
+		  </li>
+		  <li>
+		  <h3>Discord:</h3>
+		  <p>Andrei#5545</p>
+		  </li>
+    </ul>
+  </contacto>
+</contactos>
