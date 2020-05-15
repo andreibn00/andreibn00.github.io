@@ -5,11 +5,12 @@
   
 <html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../css/estilo.css">
+    <meta charset="UTF-8"></meta>
+    	<meta name="description" content="Información sobre peces."></meta>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="stylesheet" href="../css/estilo.css"/>
     <link rel="icon" href="../imagenes/icono3.png" type="image/x-icon"/>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
    
     <title>Gaming News</title>
 </head>
@@ -53,8 +54,8 @@
         <h1>GamingNews</h1>
         <p>GamingNews es un blog con el propósito de traerte las últimas novedades del mundo del juego.</p>
         <div class="contactosinfo">
-            <span><i class="fa fa-phone"></i> &nbsp; 918273472</span>
-            <span><i class="fa fa-envelope"></i> &nbsp; gamingnewsinfo@gmail.com</span>
+            <span><i class="fa fa-phone"></i> 918273472</span>
+            <span><i class="fa fa-envelope"></i> gamingnewsinfo@gmail.com</span>
 
         </div>
         <div class="contactossocial">
@@ -68,7 +69,7 @@
     </div>
     <div class="links">
         <h1>Links de Interés</h1>
-        <br>
+        <br></br>
         <ul>
         <li><a href="https://www.pcgamer.com/news/">PC gamer web</a></li>
         <li><a href="www.3djuegos.com">Foros 3dJuegos</a></li>
@@ -78,9 +79,9 @@
     </div>
     <div class="contactos">
         <h2>Contáctanos</h2>
-        <br>
+        <br></br>
         <form action="index.html" method="post">
-         <input type="email" name="email" class="areaemail" placeholder="Escribe aquí tu email">
+         <input type="email" name="email" class="areaemail" placeholder="Escribe aquí tu email"/>
         <textarea name="message" class="areatexto"></textarea>
         <button type="submit" class="botonenviar">
                 <i class="fa fa-envelope"></i>
