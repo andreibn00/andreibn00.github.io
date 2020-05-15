@@ -30,13 +30,13 @@
 
 </header>
 <aside>
-    <a href="html/pagina2.html" style="background:#e74c3c;">Novedades</a>
-    <a href="html/pagina3.html" style="background:#16a085;">Galería</a>
-    <a href="html/pagina4.html" style="background:#f1c40f;">Documentos</a>
-    <a href="html/pagina5.html" style="background:#c0392b;">Contacto</a>
+    <a href="../html/pagina2.html" style="background:#e74c3c;">Novedades</a>
+    <a href="../html/pagina3.html" style="background:#16a085;">Galería</a>
+    <a href="../html/pagina4.html" style="background:#f1c40f;">Documentos</a>
+    <a href="../html/pagina5.html" style="background:#c0392b;">Contacto</a>
 </aside>
 <div id="content">
-	<article>
+	
 	<xsl:for-each select="contactos/contacto">
     <h2><xsl:value-of select="h2"></xsl:value-of></h2>
 	<p><xsl:value-of select="p"></xsl:value-of></p>
@@ -48,7 +48,7 @@
 	</xsl:for-each>
     </ul>
 	</xsl:for-each>
-	</article>
+	
 </div>
 
 
