@@ -134,9 +134,13 @@ aside a:hover{
     min-height: 100%;    
 }
 #content{
+    background-image: url('../imagenes/contacto.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
     color: white;
-    margin-left: 25%;
-    margin-top: 10%;
+    margin-left: 35%;
+    margin-top: 20%;
 }
 footer{
   
