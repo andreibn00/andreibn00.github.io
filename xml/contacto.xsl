@@ -30,7 +30,7 @@
 
 </header>
 
-<div>
+<div id="content">
 	<article>
 	<xsl:for-each select="contactos/contacto">
     <h2><xsl:value-of select="h2"></xsl:value-of></h2>
