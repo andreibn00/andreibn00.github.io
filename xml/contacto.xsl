@@ -8,7 +8,7 @@
     <meta charset="UTF-8"></meta>
     	<meta name="description" content="Información sobre peces."></meta>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <link rel="stylesheet" href="../css/estilo.css"/>
+    <link rel="stylesheet" href="../css/estiloxml.css"/>
     <link rel="icon" href="../imagenes/icono3.png" type="image/x-icon"/>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
    
@@ -22,14 +22,19 @@
   
         
     <ul id="menu">
-        <li><a href="pagina2.html">Novedades</a></li>
-        <li><a href="pagina3.html">Galería</a></li>
-        <li><a href="pagina4.html">Documentos</a></li>
+        <li><a href="../html/pagina2.html">Novedades</a></li>
+        <li><a href="../html/pagina3.html">Galería</a></li>
+        <li><a href="../html/pagina4.html">Documentos</a></li>
         <li><a href="../xml/contacto.xml">Contacto</a></li>
     </ul>
 
 </header>
-
+<aside>
+    <a href="html/pagina2.html" style="background:#e74c3c;">Novedades</a>
+    <a href="html/pagina3.html" style="background:#16a085;">Galería</a>
+    <a href="html/pagina4.html" style="background:#f1c40f;">Documentos</a>
+    <a href="html/pagina5.html" style="background:#c0392b;">Contacto</a>
+</aside>
 <div id="content">
 	<article>
 	<xsl:for-each select="contactos/contacto">
