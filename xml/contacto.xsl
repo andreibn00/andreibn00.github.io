@@ -17,7 +17,7 @@
 <body>
     
 <header>
-    <a href="../index.html" id="webname">GamingNews</a>
+    <a href="../html/principal.html" id="webname">GamingNews</a>
     
   
         
