@@ -9,7 +9,7 @@
             i = 1;
         }
        
-         cambiar_imagen.innerHTML= "<img src=imagenes/noticia"+imagenes[i-1]+".jpg>";
+         cambiar_imagen.innerHTML= "<img src=../imagenes/noticia"+imagenes[i-1]+".jpg>";
     }
 
     setInterval(siguienteImagen, 5000);
