@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="contactosxsl.xsl"?>
+ <!DOCTYPE note SYSTEM "contactos.dtd">
+
+<contactos>
+<contacto>
+<telefono>
+918427327
+</telefono>
+<email>
+andreibineata00@gmail.com
+</email>
+<direccion>
+Avenida de Madrid, 2
+</direccion>
+</contacto>
+</contactos>
